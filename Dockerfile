@@ -1,9 +1,9 @@
 FROM openjdk:11-jdk
 
-COPY target/*.jar  /app-procject-full/app-procject-full.jar
+COPY target/*.jar  /app-procject-full/app-project-full.jar
 
-WORKDIR /app-procject-full
+WORKDIR /app-project-full
 
 EXPOSE 8080
 
-CMD ["sh","-c","java -jar app-procject-full.jar"]
+CMD ["sh","-c","java -jar app-project-full.jar"]
