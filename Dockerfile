@@ -1,6 +1,6 @@
 FROM openjdk:11-jdk
 
-COPY target/*.jar  /app-procject-full/app-project-full.jar
+COPY target/*.jar  /app-project-full/app-project-full.jar
 
 WORKDIR /app-project-full
 
